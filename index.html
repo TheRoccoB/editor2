@@ -10,6 +10,8 @@
 
 
     <link rel="stylesheet" href="css/accordionpro.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom_bootstrap3.css">
 
     <link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -23,15 +25,52 @@
 <div id="yourDiv" class="accordionPro">
     <ol>
         <li>
-            <h2>Add Social Accounts</h2>
+            <h2>Choose Your Theme</h2>
 
-            <div>
+            <div style="padding:20px">
+                <div id="chooseTheme1" >
+
+                    <p style="font-size:24px;margin-bottom:25px;">Welcome to TINT!</p>
+                    <p style="font-size:24px;">What type of content would you like to create?</p>
+                    <p>&nbsp;</p>
+
+                    <div class="contentType"><img src="img/themeDisplay.png">Digital Signage</div>
+                    <div class="contentType"><img src="img/themeWebsite.png">Website or Mobile</div>
+                    <div class="contentType"><img src="img/themeHybrid.png">Hybrid</div>
+                    <div class="contentType"><img src="img/themeUnsure.png">Not Sure</div>
+                    <p style="font-size:24px;margin-top:30px;text-align:center">Don't worry, you can always change this later!</p>
+
+
+                </div>
+
+                <div id="chooseTheme2" style="display:none">
+                    <p style="font-size:24px;margin-bottom:25px;">Awesome!</p>
+                    <p style="font-size:24px;">Here are some themes to get you started.</p>
+                    <p>&nbsp;</p>
+
+                    <div class="contentType"><img src="img/themeTOW.png">Tag-o-War</div>
+                    <div class="contentType"><img src="img/themeSlideshow.png">Classic Slideshow</div>
+                    <div class="contentType"><img src="img/themeClassic.png">Hybrid</div>
+                    <div class="contentType"><img src="img/themeSlideshow.png">Classic with Waterfall</div>
+
+
+                    <p style="font-size:24px;margin-top:25px;margin-bottom:10px;">Current Filters:</p>
+                    <p>
+                        <span class='theme-type'><input type="checkbox" checked> Display Themes</span>
+                        <span class='theme-type'><input type="checkbox" checked> Web Themes</span>
+                        <span class='theme-type'><input type="checkbox" checked> Slider Themes</span>
+                        <span class='theme-type'><input type="checkbox"> Experimental Themes</span>
+                        <button id="next1" class="btn" style="bottom:100px;right:100px;position:absolute;">Next >></button>
+                    </p>
+
+                </div>
 
             </div>
 
+
         </li>
         <li>
-            <h2>Choose a Theme</h2>
+            <h2>Add A social Account</h2>
 
             <div>
 

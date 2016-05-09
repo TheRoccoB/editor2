@@ -1,4 +1,26 @@
+body{
+    background-color:transparent;
+}
+
 .large-social-icon{
     font-size:84px;
     padding-left:50px;
+}
+
+.theme-type{
+    margin-right:10px;
+}
+
+.contentType{
+    display:inline-block;width:220px;border:1px solid black;padding:5px;
+    cursor:pointer;
+}
+
+.themeType{
+    display:inline-block;width:220px;border:1px solid black;padding:5px;
+    cursor:pointer;
+}
+
+.contentType:hover{
+    background-color:orange;
 }
